@@ -26,7 +26,7 @@ def site(xml):
 	
 	return "Number of URL's extracted:",count
 
-req=requests.head(url+site_map)              #<Response [200]>  
+req=requests.head(url+site_map)              
 status_code=req.status_code
 
 if status_code==200:
